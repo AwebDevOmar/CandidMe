@@ -1,0 +1,22 @@
+.inboxHeader{
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    right: 0px;
+    left: 0px;
+    top:0px;
+    background-color: blue;
+}
+.messageCardContainer{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    place-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    height: 75vh;
+
+  
+  }

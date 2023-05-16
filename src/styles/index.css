@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 600;
+  }
+body{
+  text-rendering: optimizeLegibility;
+  background-color: whitesmoke;
+}
+
+
+/* NavBar */
+
+.navbar {
+  background-color:white;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  bottom: 2.5vh;
+  left: 10vw;
+  right:10vw;
+  z-index: 99;
+  border-radius: 50px;
+  border: black solid;
+  border-width: 1px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color:rgb(245, 230, 230);
+  color: #333;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: rgb(245, 230, 230);
+  color: #333;
+  border-radius: 5px;
+}
+
+/* LogIn Page */
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+}
+
+
+/* Submit Message */
+
+.page_container{
+  display: flex ;
+  justify-content: center;
+  background-color: grey;
+  height: 92vh;
+
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.profile-img{
+  width: 50px;
+  height: auto;
+  background-color: black;
+  border-radius:100% ;
+  margin-right: 10px;
+}
+.name{
+  font-size: medium;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.message{
+  font-family: sans-serif;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 10px;
+  width: 220px;
+  height: 25vh;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hint{
+  font-family: sans-serif;
+  width: 200px;
+  height:10vh;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-button{
+  height: 50px;
+  width: 150px;
+}
+
+
+/* Inbox */
+
+
+
+

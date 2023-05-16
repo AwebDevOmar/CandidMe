@@ -1,0 +1,141 @@
+.cardContainer{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 2px 3px 0px 0px, 2px 2px 0px 0px, 2px 2px 0px 0px;
+    border: 3px solid;
+  }
+  .close:hover {
+    opacity: 1;
+    
+  }
+  .close:active {
+    opacity: 1; 
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+  
+  .cardHeader{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+  }
+  .cardHeaderImg{
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 15%;
+  
+  }
+  .cardHeaderName{
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: 700;
+  }
+  
+  .cardMessageContainer{
+  
+    background-color: white;
+    width: 85%;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  }
+  .cardMessageText {
+    font-family: "Open Sans", sans-serif;
+    width: 80%;
+    line-height: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .button-54 {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .cardCoverContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25vw;
+    margin: 10px;
+    background-color: #F8838E;
+    aspect-ratio: 1; 
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+  }
+  
+  
+  .cardCover{
+    width: inherit;
+  }
+  
+  .hidden{
+    display:none;
+  }
+  .seen{
+    background-color: rgb(245, 230, 230);
+  }
