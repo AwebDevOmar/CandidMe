@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/candidme/static/css/main.9428ec0e.css",
+    "main.js": "/candidme/static/js/main.9230a2a4.js",
+    "static/media/anonymous.webp": "/candidme/static/media/anonymous.a70fec8a3009596fedad.webp",
+    "index.html": "/candidme/index.html",
+    "main.9428ec0e.css.map": "/candidme/static/css/main.9428ec0e.css.map",
+    "main.9230a2a4.js.map": "/candidme/static/js/main.9230a2a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9428ec0e.css",
+    "static/js/main.9230a2a4.js"
+  ]
+}
