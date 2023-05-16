@@ -16,7 +16,7 @@ return (
 <>
     <NavBar/>
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/candidme' element={<Home/>} />
 
       <Route element={<PrivateRoute/>}>
 
